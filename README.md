@@ -1,9 +1,8 @@
-# Amazon-Sales-Analysis
-SQL project analyzing Amazon e-commerce data for sales, customers, and operations insights.
-📦 Amazon Sales & Customer Analytics (SQL Project)
+
+📦 Amazon Sales & Customer Analytics 
 
 This project explores Amazon e-commerce data using SQL to uncover valuable insights into sales, customers, inventory, and operations.
-It demonstrates the use of advanced SQL queries (joins, CTEs, window functions, ranking, and aggregations) to solve real-world business problems.
+It demonstrates the use of advanced SQL queries (joins, window functions, ranking, and aggregations) to solve real-world business problems.
 
 📊 Key Analyses
 
@@ -35,9 +34,9 @@ Most Returned Products – Top products by return rate.
 
 🛠️ Tools & Concepts
 
-SQL Server / MySQL / PostgreSQL (any RDBMS compatible)
+ Use SQL Server 
 
-Advanced SQL: Joins, Window Functions, Aggregations, Ranking, CTEs
+Advanced SQL: Joins, Window Functions, Aggregations, Ranking
 
 Business Use Cases: Sales performance, customer behavior, operations, and profitability
 
