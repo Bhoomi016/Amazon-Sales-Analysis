@@ -1,8 +1,7 @@
-
-📦 Amazon Sales & Customer Analytics 
+📦 Amazon Sales & Customer Analytics (SQL Project)
 
 This project explores Amazon e-commerce data using SQL to uncover valuable insights into sales, customers, inventory, and operations.
-It demonstrates the use of advanced SQL queries (joins, window functions, ranking, and aggregations) to solve real-world business problems.
+It demonstrates the use of advanced SQL queries such as joins, CTEs, window functions, ranking, and aggregations to solve real-world business problems.
 
 📊 Key Analyses
 
@@ -10,39 +9,57 @@ Top Selling Products – Identify the highest revenue-generating products.
 
 Revenue by Category – Contribution of each product category to total sales.
 
-Average Order Value (AOV) – Customer-level analysis (with filter on minimum 5 orders).
+Average Order Value (AOV) – Customer-level analysis (only for customers with more than 5 orders).
 
 Monthly Sales Trend – Compare current vs. previous month sales.
 
-Customer Lifetime Value (CLTV) – Ranking customers based on long-term spending.
+Customer Lifetime Value (CLTV) – Ranking customers based on lifetime spending.
 
-Customers with No Purchases – Identify registered but inactive customers.
+Customers with No Purchases – Detect registered but inactive customers.
 
-Least-Selling Categories by State – Detect weak-performing categories geographically.
+Least-Selling Categories by State – Highlight low-performing categories geographically.
 
-Inventory Stock Alerts – Highlight low-stock products with restock dates.
+Inventory Stock Alerts – Identify products with stock below threshold along with restock dates.
 
-Shipping Delays – Orders delayed by more than 3 days.
+Shipping Delays – Orders delayed by more than 3 days, including delivery provider details.
 
-Top 5 Customers by State – Regional top customers by order count and sales.
+Top 5 Customers by State – Find top customers per state by order count and sales.
 
-Payment Success Rate – Breakdown of successful vs. failed/pending transactions.
+Payment Success Rate – Percentage breakdown of successful, failed, and pending payments.
 
-Product Profit Margin – Ranking products by profitability.
+Product Profit Margin – Rank products based on profitability.
 
-Most Returned Products – Top products by return rate.
+Most Returned Products – Identify products with the highest return rates.
 
 🛠️ Tools & Concepts
 
- Use SQL Server 
+SQL Server / MySQL / PostgreSQL (any RDBMS compatible)
 
-Advanced SQL: Joins, Window Functions, Aggregations, Ranking
+Advanced SQL Techniques:
 
-Business Use Cases: Sales performance, customer behavior, operations, and profitability
+Joins
 
-🎯 Objective
+Window Functions
 
-To provide actionable insights that help:
+Aggregations
+
+Ranking Functions
+
+CTEs
+
+Business Use Cases:
+
+Sales performance
+
+Customer behavior
+
+Inventory optimization
+
+Operational efficiency
+
+🎯 Objectives
+
+The goal of this project is to provide actionable business insights that help:
 
 Improve sales strategies
 
